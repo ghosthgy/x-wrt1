@@ -12,21 +12,21 @@ define Device/openstick-ufi001c
   DEVICE_VENDOR := Zhihe
   DEVICE_MODEL := OpenStick UFI001C
   DEVICE_DTS := msm8916-thwc-ufi001c
-  DEVICE_PACKAGES := wpad-basic-wolfssl qcom-msm8916-modem-openstick-ufi001c-firmware qcom-msm8916-openstick-ufi001c-wcnss-firmware qcom-msm8916-wcnss-openstick-ufi001c-nv
+  DEVICE_PACKAGES := openstick-tweaks wpad-basic-wolfssl qcom-msm8916-modem-openstick-ufi001c-firmware qcom-msm8916-openstick-ufi001c-wcnss-firmware qcom-msm8916-wcnss-openstick-ufi001c-nv
 endef
 TARGET_DEVICES += openstick-ufi001c
 
 define Device/openstick-ufi001b
   $(Device/openstick-ufi001c)
   DEVICE_MODEL := OpenStick UFI001B
-  DEVICE_PACKAGES := wpad-basic-wolfssl qcom-msm8916-modem-openstick-ufi001b-firmware qcom-msm8916-openstick-ufi001b-wcnss-firmware qcom-msm8916-wcnss-openstick-ufi001b-nv
+  DEVICE_PACKAGES := openstick-tweaks wpad-basic-wolfssl qcom-msm8916-modem-openstick-ufi001b-firmware qcom-msm8916-openstick-ufi001b-wcnss-firmware qcom-msm8916-wcnss-openstick-ufi001b-nv
 endef
 TARGET_DEVICES += openstick-ufi001b
 
 define Device/openstick-ufi103s
   $(Device/openstick-ufi001c)
   DEVICE_MODEL := OpenStick UFI103S
-  DEVICE_PACKAGES := wpad-basic-wolfssl qcom-msm8916-modem-openstick-ufi103s-firmware qcom-msm8916-openstick-ufi103s-wcnss-firmware qcom-msm8916-wcnss-openstick-ufi103s-nv
+  DEVICE_PACKAGES := openstick-tweaks wpad-basic-wolfssl qcom-msm8916-modem-openstick-ufi103s-firmware qcom-msm8916-openstick-ufi103s-wcnss-firmware qcom-msm8916-wcnss-openstick-ufi103s-nv
 endef
 TARGET_DEVICES += openstick-ufi103s
 
